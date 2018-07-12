@@ -1,0 +1,29 @@
+
+[1mFrom:[0m /home/mvassaramo/collections_practice_vol_2-london-web-071618/collections_practice.rb @ line 90 Object#organize_schools:
+
+    [1;34m75[0m: [32mdef[0m [1;34morganize_schools[0m(schools)
+    [1;34m76[0m:   school_hash={}
+    [1;34m77[0m:   nyc_array=[]
+    [1;34m78[0m:   chicago_array=[]
+    [1;34m79[0m:   sf_array=[]
+    [1;34m80[0m: 
+    [1;34m81[0m: schools.each [32mdo[0m |info|
+    [1;34m82[0m:   [32mif[0m info.include?([31m[1;31m"[0m[31mNYC[1;31m"[0m[31m[0m)
+    [1;34m83[0m:      nyc_array << info
+    [1;34m84[0m:   [32melsif[0m info.include?([31m[1;31m"[0m[31mChicago[1;31m"[0m[31m[0m)
+    [1;34m85[0m:      chicago_array << info
+    [1;34m86[0m:   [32melse[0m 
+    [1;34m87[0m:      sf_array << info
+    [1;34m88[0m:   [32mend[0m 
+    [1;34m89[0m: [32mend[0m 
+ => [1;34m90[0m: binding.pry
+    [1;34m91[0m:   [1;34m# schools.values.each do |location|[0m
+    [1;34m92[0m:     
+    [1;34m93[0m:   [1;34m#   location.each do |city|[0m
+    [1;34m94[0m:   [1;34m#   school_hash[city[1]]=[][0m
+    [1;34m95[0m:   [1;34m# end[0m
+    [1;34m96[0m:   [1;34m#   end [0m
+    [1;34m97[0m:     
+    [1;34m98[0m:   [1;34m# school_hash[0m
+    [1;34m99[0m: [32mend[0m 
+
